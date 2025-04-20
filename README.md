@@ -27,7 +27,7 @@ Weapon viewmodel will be visible as normal.
 
 #### Modified values  
 
-Custom values (1) can allow clients to make the viewmodel invisible or otherwise look different to normal, potentially providing a gameplay advantage.  
+Custom values (1) can allow clients to make the viewmodel invisible or otherwise look different to normal, potentially providing a gameplay advantage. It can also disable muzzle flash. 
 
 ## Building
 
