@@ -4,7 +4,7 @@
 #pragma semicolon 1
 #pragma newdecls required
 
-#define PLUGIN_VERSION "0.2.1"
+#define PLUGIN_VERSION "0.3.0"
 
 char g_sPluginTag[] = "[COMP CVARS]";
 
@@ -20,6 +20,7 @@ public Plugin myinfo = {
 char g_enforcedVals[][][] = {
     { "r_shadowrendertotexture", "1" },  // Player cvar to monitor, followed by the value it must hold.
     { "v_vmtweak", "0" },
+    { "net_showevents", "0"},
 };
 
 public void OnPluginStart()
